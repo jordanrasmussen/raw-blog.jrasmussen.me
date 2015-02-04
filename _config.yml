@@ -1,0 +1,14 @@
+# Site settings
+title: jordan.blog();
+email: rasmussen.jordan@yahoo.com
+description: >  # My Blog
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://blog.jrasmussen.me" # the base hostname & protocol for your site
+twitter_username: jrasmussen93
+github_username:  jordanrasmussen
+
+# Build settings
+markdown: kramdown
+
+#Syntax highlighting
+highlighter: rouge
