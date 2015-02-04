@@ -1,14 +1,30 @@
-# Site settings
-title: jordan.blog();
-email: rasmussen.jordan@yahoo.com
-description: >  # My Blog
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://blog.jrasmussen.me" # the base hostname & protocol for your site
-twitter_username: jrasmussen93
-github_username:  jordanrasmussen
+# visit https://github.com/mojombo/jekyll/wiki/Configuration for more settings
 
-# Build settings
+paginate: 10 # pagination based on number of posts
+paginate_path: "page:num"
+exclude: ["README.md"] # files to exclude
+highlighter: rouge
 markdown: kramdown
 
-#Syntax highlighting
-highlighter: rouge
+
+defaults:
+  -
+    scope:
+      path: "" # empty string for all files
+    values:
+      title: dbyll
+
+description: Blog of many things.
+author:
+  name: Jordan
+  email: rasmussen.jordan@yahoo.com
+  github: jordanrasmussen
+  twitter: jrasmussen93
+  bio: Student, Developer, Builder
+  email_md5: 707b717b1349c4b8db2cab72540153f3
+
+rss_path: feed.xml
+categories_path: categories.html
+tags_path: tags.html
+
+BASE_PATH:
